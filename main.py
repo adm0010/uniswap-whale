@@ -19,7 +19,7 @@ first_amount = 1000
 token_tx_id = ""
 token_name = "BOND"
 
-cmc = CoinMarketCapAPI('6c43df37-3c8e-4875-8b24-bb98bd3e21dd') # Sandbox environnement
+cmc = CoinMarketCapAPI('KEY') # Sandbox environnement
 
 try:
     r = cmc.cryptocurrency_quotes_latest(symbol=token_name)
